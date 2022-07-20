@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import ShoppingList from "./ShoppingList";
 import Header from "./Header";
 import itemData from "../data/items";
+import Filter from "./Filter";
+import ItemForm from "./ItemForm";
 
 function App() {
   const [items, setItems] = useState(itemData);
